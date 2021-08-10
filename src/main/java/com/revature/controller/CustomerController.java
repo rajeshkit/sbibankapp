@@ -25,4 +25,8 @@ public class CustomerController {
 		System.out.println("welocme customer");
 		return Arrays.asList(new Customer(100, "rajesh"),new Customer(101, "vijay"));
 	}
+	@GetMapping("/test")
+	public String tests() {
+		return "test is done";
+	}
 }
