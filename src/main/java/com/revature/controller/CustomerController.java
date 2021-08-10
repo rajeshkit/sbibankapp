@@ -20,6 +20,12 @@ public class CustomerController {
 		
 		return "greeting to you";
 	}
+	@GetMapping("/statement")
+	public String getStatement() {
+		return "your statement is ready";
+	}
+	
+	
 	@GetMapping("/customers")
 	public List<Customer> getCustomer() {
 		
