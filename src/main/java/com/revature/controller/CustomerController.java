@@ -27,6 +27,7 @@ public class CustomerController {
 	}
 	@GetMapping("/test")
 	public String tests() {
+		
 		return "test is done";
 	}
 }
